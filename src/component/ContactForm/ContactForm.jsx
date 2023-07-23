@@ -23,7 +23,7 @@ const ContactForm = () => {
 
   return (
     <ContactFormContainer>
-      <FormTitle>Contact Us</FormTitle>
+      <FormTitle>Feedback Form</FormTitle>
       <form onSubmit={handleSubmit}>
         <FormInput
           type="text"

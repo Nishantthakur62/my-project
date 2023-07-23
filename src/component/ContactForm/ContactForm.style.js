@@ -5,7 +5,7 @@ export const ContactFormContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: #0e0e42;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -14,7 +14,7 @@ export const ContactFormContainer = styled.div`
 export const FormTitle = styled.h2`
   font-size: 24px;
   font-weight: bold;
-  color: #333;
+  color: #fff;
   margin-bottom: 20px;
 `;
 

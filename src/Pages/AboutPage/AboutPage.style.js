@@ -22,13 +22,14 @@ export const SectionContent = styled.div`
     margin-bottom: 15px;
   }
 `;
-
+const colors = ['#0e0e32', '#0e0e42', '#1a1a35', '#232348', '#2c2c5c', '#353570', '#3e3e85', '#47479a', '#5050af', '#5959c4'];
 export const AdditionalSection = styled.section`
-  background-color: #0e0e23;
+  background-color: ${(props) => colors[props.colorIndex]};
   color: #ffffff;
   padding: 80px 20px;
   text-align: center;
 `;
+
 
 export const AdditionalTitle = styled.h2`
   font-size: 28px;

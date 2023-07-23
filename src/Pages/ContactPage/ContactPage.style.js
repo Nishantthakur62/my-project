@@ -6,18 +6,18 @@ export const ContactPageContainer = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #0e0e32;
 `;
 
 export const ContactTitle = styled.h1`
   font-size: 36px;
   font-weight: bold;
-  color: #333;
+  color: #fff;
   margin-bottom: 20px;
 `;
 
 export const ContactContent = styled.div`
   font-size: 18px;
-  color: #666;
+  color: #fff;
   text-align: center;
 `;
