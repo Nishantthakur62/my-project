@@ -24,10 +24,17 @@ export const SectionContent = styled.div`
 `;
 const colors = ['#0e0e32', '#0e0e42', '#1a1a35', '#232348', '#2c2c5c', '#353570', '#3e3e85', '#47479a', '#5050af', '#5959c4'];
 export const AdditionalSection = styled.section`
-  background-color: ${(props) => colors[props.colorIndex]};
+  background-color: ${(props) => colors[props.colorindex]};
   color: #ffffff;
   padding: 80px 20px;
+  margin-top: 65px;
   text-align: center;
+  transition:  1s ease-in-out; /* Added 1-second transition delay */
+  border-radius: 20% 50% 20% 50%;
+  &:hover {
+    border-radius: 50% 20% 50% 20%; /* Remove border-radius on hover if desired */
+    color: #ffcc00;
+  }
 `;
 
 

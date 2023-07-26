@@ -8,13 +8,13 @@ const Navbar = () => {
   const navigateTo = (path) => {
     navigate(path); 
   };
-  return (  
+  return ( 
     <NavContainer>
-      <SpaceShipIcon>&#128640;</SpaceShipIcon>
+      <SpaceShipIcon onClick={() => navigateTo('/')}>&#128640;</SpaceShipIcon>
       <NavMenu>
         <NavItem onClick={() => navigateTo('/')}>Home</NavItem>
       <NavItem onClick={() => navigateTo('/about')}>About</NavItem>
-        <NavItem onClick={() => navigateTo('/contact')}>Contact Ground Control</NavItem>
+        <NavItem onClick={() => navigateTo('/contact')}>Contact </NavItem>
         <NavItem onClick={() => navigateTo('/Project')}>Project</NavItem>
       </NavMenu>
     </NavContainer>

@@ -12,7 +12,7 @@ const AboutPage = () => {
 
   return (
     <>
-      <AdditionalSection  colorIndex={0}>
+      <AdditionalSection  colorindex={0}>
         <AdditionalTitle>State Hooks: useState and useReducer</AdditionalTitle>
         <AdditionalContent>
           <p>useState is used to add state variables to functional components, enabling them to hold and manage state.</p>
@@ -21,7 +21,7 @@ const AboutPage = () => {
         </AdditionalContent>
       </AdditionalSection>
 
-      <AdditionalSection  colorIndex={1}>
+      <AdditionalSection  colorindex={1}>
         <AdditionalTitle>Effect Hook: useEffect and useLayoutEffect</AdditionalTitle>
         <AdditionalContent>
           <p>useEffect allows performing side effects in functional components, like fetching data, subscribing to events, or updating the DOM after rendering.</p>
@@ -30,7 +30,7 @@ const AboutPage = () => {
         </AdditionalContent>
       </AdditionalSection>
 
-      <AdditionalSection  colorIndex={2}>
+      <AdditionalSection  colorindex={2}>
         <AdditionalTitle>Context Hook: useContext</AdditionalTitle>
         <AdditionalContent>
           <p>useContext provides access to a context created using React's Context API, allowing components to consume context values without nesting multiple levels.</p>
@@ -38,7 +38,7 @@ const AboutPage = () => {
         </AdditionalContent>
       </AdditionalSection>
 
-      <AdditionalSection  colorIndex={3}>
+      <AdditionalSection  colorindex={3}>
         <AdditionalTitle>Ref Hook: useRef</AdditionalTitle>
         <AdditionalContent>
           <p>useRef allows creating a mutable reference that persists across renders, useful for accessing and modifying DOM elements or storing values between renders without triggering re-renders.</p>
@@ -46,7 +46,7 @@ const AboutPage = () => {
         </AdditionalContent>
       </AdditionalSection>
 
-      <AdditionalSection  colorIndex={4}>
+      <AdditionalSection  colorindex={4}>
         <AdditionalTitle>Memo Hook: useMemo</AdditionalTitle>
         <AdditionalContent>
           <p>useMemo memoizes the result of a function, useful for optimizing expensive computations and preventing unnecessary recalculations.</p>
@@ -54,7 +54,7 @@ const AboutPage = () => {
         </AdditionalContent>
       </AdditionalSection>
 
-      <AdditionalSection  colorIndex={5}>
+      <AdditionalSection  colorindex={5}>
         <AdditionalTitle>Callback Hook: useCallback</AdditionalTitle>
         <AdditionalContent>
           <p>useCallback is used to memoize functions and prevent unnecessary re-creations of function references, improving performance in certain scenarios.</p>
@@ -62,7 +62,7 @@ const AboutPage = () => {
         </AdditionalContent>
       </AdditionalSection>
 
-      <AdditionalSection  colorIndex={6}>
+      <AdditionalSection  colorindex={6}>
         <AdditionalTitle>Custom Hooks</AdditionalTitle>
         <AdditionalContent>
           <p>Custom hooks are functions created by developers to encapsulate complex or repetitive logic, making it reusable across different components.</p>

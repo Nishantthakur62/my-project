@@ -9,6 +9,13 @@ export const NavContainer = styled.nav`
   top: 0;
   left: 0;
   width: 100%;
+  border-radius: 0px;
+  opacity: 0.7;
+  transition: 0.5s;
+  &:hover {
+    opacity:1;
+    border-radius: 50px;
+  }
 `;
 
 export const SpaceShipIcon = styled.div`

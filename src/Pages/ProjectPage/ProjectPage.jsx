@@ -3,7 +3,7 @@ import { Container, Title, Description, Subtitle, ProjectList, ProjectItem } fro
 
 const ProjectPage = () => {
   const projects = [
-    { name: 'Hooks', link: 'https://soft-belekoy-38bed7.netlify.app' },
+    { name: 'Expense tracker with theme', link: 'https://soft-belekoy-38bed7.netlify.app' },
     { name: 'Games', link: 'https://nishant-game3.netlify.app/' },
     { name: 'Portfolio', link: 'https://nishant-gongi.netlify.app/#' },
   ];
