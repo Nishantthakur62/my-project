@@ -27,7 +27,7 @@ function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/about" element={<AboutPage />} />
+            <Route path="/about" element={<HomePage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/Project" element={<ProjectPage />} />
             <Route path="/state-hooks" element={<StateHooksPage />} />
