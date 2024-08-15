@@ -21,10 +21,10 @@ export const NavContainer = styled.nav`
 export const SpaceShipIcon = styled.div`
   font-size: 24px;
   margin-right: 10px;
-  transition: 0.3s;
+  transition: 0.5s;
 
   &:hover {
-    transform: scale(1.1);
+    transform: scale(2);
     color: #ffcc00;
   }
 `;
